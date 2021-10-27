@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="EN-GB" dir="ltr">
+    <head>
+        <title>Tip Calculator</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Tip Calculator</h1>
+        <form>
+            <label for="billamt">How much is your bill?</label>
+            <input type="number" name="billamt" id="billamt">
+            <label for="service">How was the service?</label>
+            <select id="service">
+                <option disabled selected value="0">-- Choose an Option --</option>
+                <option value="0.3">30&#37; &#45; Exellent</option>
+                <option value="0.2">20&#37; &#45; Good</option>
+                <option value="0.15">15&#37; &#45; OK</option>
+                <option value="0.05">5&#37; &#45; Bad</option>
+            </select>
+            <label for="guests">How many people share the bill?</label>
+            <input type="number" name="guests" id="guests">
+        </form>
+        <button type="button" id="calculate">Calculate</button>
+    </body>
+</html>
